@@ -1,0 +1,55 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Eclipse / IntelliJ IDEA / VS Code IDEs
+*.iml
+.idea/
+.vscode/
+*.ipr
+*.iws
+out/
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Spring Boot specific
+application.properties
+application.yml
+.env
+
+# Others
+bin/
+generated/
+.cache/
+*.db
+
+# Git itself
+.git/
+
+# H2 database file (if any local db file)
+*.mv.db
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.save
